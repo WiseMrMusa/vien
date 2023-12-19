@@ -1,14 +1,20 @@
 {
-  "workspaces": ["src"],
+  "workspaces": [
+    "src"
+  ],
   "private": "true",
   "type": "module",
   "scripts": {
-    "changeset": "changeset"
+    "changeset": "changeset",
+    "changeset:release": "bun run build && bun run prepublishOnly && changeset publish",
+    "changeset:version": "changeset version && bun scripts/updateVersion.ts && bun install --lockfile-only",
+    "prepublishOnly": "bun scripts/prepublishOnly.ts"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "bun-types": "latest",
-    "globby": "^14.0.0"
+    "globby": "^14.0.0",
+    "which-pm-runs": "^1.1.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
