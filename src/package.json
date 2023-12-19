@@ -1,5 +1,6 @@
 {
   "name": "vien",
+  "private": "false",
   "description": "Typescipt Interface for Starknet",
   "version": "0.0.1",
   "main": "./_cjs/index.js",
