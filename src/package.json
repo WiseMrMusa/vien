@@ -1,5 +1,5 @@
 {
-  "name": "vien",
+  "name": "@starknet/vien",
   "description": "Typescipt Interface for Starknet",
   "version": "0.0.1",
   "publishConfig": {
