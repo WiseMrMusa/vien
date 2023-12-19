@@ -5,7 +5,6 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/vien"
   },
-  "type": "module",
   "main": "./_cjs/index.js",
   "module": "./_esm/index.js",
   "types": "./_types/index.d.ts",
