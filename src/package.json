@@ -1,0 +1,40 @@
+{
+  "name": "vien",
+  "description": "Typescipt Interface for Starknet",
+  "version": "0.0.1",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/vien"
+  },
+  "type": "module",
+  "main": "./_cjs/index.js",
+  "module": "./_esm/index.js",
+  "types": "./_types/index.d.ts",
+  "typings": "./_types/index.d.ts",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "license": "MIT",
+  "homepage": "https://vien.sh",
+  "repository": "wisemrmusa/vien",
+  "authors": [
+    "wisemrmusa",
+    "jelilat"
+  ],
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/wisemrmusa"
+    }
+  ],
+  "keywords": [
+    "starknet",
+    "eth",
+    "ethereum",
+    "dapps",
+    "wallet",
+    "web3"
+  ]
+}

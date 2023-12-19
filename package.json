@@ -1,0 +1,16 @@
+{
+  "workspaces": ["src"],
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "changeset": "changeset"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "bun-types": "latest",
+    "globby": "^14.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
