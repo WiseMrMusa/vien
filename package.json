@@ -2,7 +2,7 @@
   "workspaces": [
     "src"
   ],
-  "private": "true",
+  "private": "false",
   "type": "module",
   "scripts": {
     "build": "bun run clean && bun run build:cjs && bun run build:esm && bun run build:types",
