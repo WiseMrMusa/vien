@@ -3,8 +3,7 @@
   "description": "Typescipt Interface for Starknet",
   "version": "0.0.1",
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/wisemrmusa"
+    "access": "public"
   },
   "main": "./_cjs/index.js",
   "module": "./_esm/index.js",
