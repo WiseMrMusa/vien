@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/vien"
+    "registry": "https://npm.pkg.github.com/wisemrmusa"
   },
   "main": "./_cjs/index.js",
   "module": "./_esm/index.js",
